@@ -1,8 +1,8 @@
 pipeline {
   agent { label 'linux1' }
-  tools {
+  /*tools {
     maven 'Maven 3.5'
-  }
+  }*/
   stages {
     stage('Checkout'){
       steps {
